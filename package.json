@@ -1,0 +1,35 @@
+{
+  "name": "warsawjs-workshop-5-chat",
+  "version": "1.0.0",
+  "description": "chat in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "port": "PORT=30001 node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grzegorzkowalski/warsawjs-workshop-5-chat.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Grzegorz Kowalski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grzegorzkowalski/warsawjs-workshop-5-chat/issues"
+  },
+  "homepage": "https://github.com/grzegorzkowalski/warsawjs-workshop-5-chat#readme",
+  "devDependencies": {
+    "node-gyp": "^3.6.0",
+    "nodemon": "^1.11.0",
+    "socket.io": "^1.7.3"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "node-gyp": "^3.6.0",
+    "sqlite": "^2.5.0",
+    "sqlite3": "^3.1.8"
+  }
+}
